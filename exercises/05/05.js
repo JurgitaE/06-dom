@@ -6,8 +6,9 @@ h1DOM.innerText = "Zuikio pomidoru darzas";
 // Padaryk, jog h1 elementas turetu CSS class "pavadinimas"
 h1DOM.classList.add('pavadinimas')
 // Surasti visus darzoves
-const listDOM = document.querySelectorAll('li');
+const listDOM = [...document.querySelectorAll('li')].slice(0, 3);
+// console.log(listDOM.slice(0, 3));
 // Kiekvienos darzoves teksta pakeisti i "Pomidoras"
-listDOM.forEach(a => a.innerText = 'Pomidoras')
+listDOM.forEach(a => a.innerText = 'Pomidoras');
 // Kiekvienai darzovei suteikti CSS class "pomidoras"
 listDOM.forEach(a => a.classList.add('pomidoras'));
