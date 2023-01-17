@@ -18,3 +18,6 @@ hamburgerDOM.addEventListener('click', () => {
 // Extra: CSS perrasyti taip, jog meniu elementai butu atvaizduoti vertikaliai ir logo su hamburgeriu - "kabetu" virsuje
 
 document.querySelector('header').style.justifyContent = 'center';
+document.querySelector('header').style.position = 'relative';
+navDOM.style.position = 'absolute';
+navDOM.style.top = '50px';
