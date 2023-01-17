@@ -1,0 +1,14 @@
+
+// Susirasti minuso mygtuka
+
+// Susirasti pliuso mygtuka
+
+// Susirasti reset mygtuka
+
+// Susirasti rezultato atvaizdavimo elementa
+
+// Paspaudus ant minuso, rezultatas mazinamas vienu vienetu
+
+// Paspaudus ant pliuso, rezultatas didinamas vienu vienetu
+
+// Paspaudus ant reset, rezultatas turi grizti i nuli

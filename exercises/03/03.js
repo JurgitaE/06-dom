@@ -4,6 +4,6 @@ const h1DOM = document.querySelector('h1');
 h1DOM.classList.add('simba');
 
 // Surasti visas darzoves
-const listDOM = document.querySelectorAll('li');
+const listDOM = [...document.querySelectorAll('li')].slice(0, 3);
 // Kiekvienai darzovei prideti CSS class "darzove"
-[...listDOM].forEach(a => a.classList.add('darzove'))
+listDOM.forEach(a => a.classList.add('darzove'));
